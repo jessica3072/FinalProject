@@ -1,0 +1,43 @@
+body, html {
+    height: 99%;
+}
+
+
+h, p {
+    text-align: center;
+}
+
+IMG.displayed {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+p.blocktext {
+    text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: lightsalmon;
+  color: white;
+}
